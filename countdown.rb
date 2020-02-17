@@ -1,9 +1,10 @@
 #binding.pry
 def countdown(num)
-   num == 10
-  while num -= 1
-puts 'HAPPY NEW YEAR!'
+  while num > 0
+puts num + 'SECOND(S)!'
+#num = num - 1
+num -= 1
 
 end
-
+'HAPPY NEW YEAR!'
   end
